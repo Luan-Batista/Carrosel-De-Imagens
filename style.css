@@ -37,7 +37,6 @@
 }
 
 
-
 .imagens-slider .slide{
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,4 +92,43 @@ p{
 
 .esconder{
     opacity: 0;
+}
+
+
+@media (max-width:925px){
+    .conteudo{
+        margin-left: 15%;
+        width: 300px;
+    }
+}
+
+@media(max-width:597px){
+    .setaDir{
+        position: fixed;
+    }
+    .imagens-slider{
+        height: 100vh;
+    }
+    .conteudo{
+        width: 150px;
+        height: 250px;
+        padding:35px 30px;
+
+    }
+
+    .titulo{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:400px){
+    .setaDir .imagem-seta, .setaEsq .imagem-seta{
+        width: 25px;
+        height: 25px;
+    }
 }
