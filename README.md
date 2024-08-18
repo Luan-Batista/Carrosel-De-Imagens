@@ -1,2 +1,2 @@
-# Carrosel-De-Imagens
+# Carrossel-De-Imagens
 Carrossel de imagens feito com a tríade inicial do front-end
